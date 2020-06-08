@@ -1,2 +1,3 @@
 # unlimited_sub_selection_tree
-handling unlimited unlimited sub selection tree 
+handling unlimited sub selection tree using jquery
+Backend: PHP-Codeigniter
