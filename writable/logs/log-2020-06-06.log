@@ -1,0 +1,14 @@
+CRITICAL - 2020-06-06 15:39:16 --> syntax error, unexpected '(', expecting '|' or variable (T_VARIABLE)
+#0 /var/www/html/paytabs_task/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('category')
+#1 /var/www/html/paytabs_task/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle('category')
+#2 /var/www/html/paytabs_task/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/paytabs_task/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/paytabs_task/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-06 15:39:27 --> syntax error, unexpected '(', expecting '|' or variable (T_VARIABLE)
+#0 /var/www/html/paytabs_task/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('category/getsub...')
+#1 /var/www/html/paytabs_task/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle('category/getsub...')
+#2 /var/www/html/paytabs_task/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/paytabs_task/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/paytabs_task/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

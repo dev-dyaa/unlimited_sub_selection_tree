@@ -1,0 +1,82 @@
+CRITICAL - 2020-06-05 21:09:45 --> Cannot declare class App\Controllers\Category because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-05 21:10:47 --> Access denied for user '****'@'localhost' (using password: YES)
+#0 /var/www/html/paytabs_task/system/Database/BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/html/paytabs_task/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/paytabs_task/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/html/paytabs_task/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/paytabs_task/app/Controllers/Category.php(10): CodeIgniter\Model->findAll()
+#5 /var/www/html/paytabs_task/system/CodeIgniter.php(914): App\Controllers\Category->index()
+#6 /var/www/html/paytabs_task/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 /var/www/html/paytabs_task/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/paytabs_task/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-05 22:01:03 --> Invalid file: category.php
+#0 /var/www/html/paytabs_task/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('category.php')
+#1 /var/www/html/paytabs_task/system/Common.php(1087): CodeIgniter\View\View->render('category', Array, true)
+#2 /var/www/html/paytabs_task/app/Controllers/Category.php(10): view('category')
+#3 /var/www/html/paytabs_task/system/CodeIgniter.php(914): App\Controllers\Category->index()
+#4 /var/www/html/paytabs_task/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#5 /var/www/html/paytabs_task/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/paytabs_task/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-05 22:01:51 --> Invalid file: category.php
+#0 /var/www/html/paytabs_task/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('category.php')
+#1 /var/www/html/paytabs_task/system/Common.php(1087): CodeIgniter\View\View->render('category', Array, true)
+#2 /var/www/html/paytabs_task/app/Controllers/Category.php(10): view('category')
+#3 /var/www/html/paytabs_task/system/CodeIgniter.php(914): App\Controllers\Category->index()
+#4 /var/www/html/paytabs_task/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#5 /var/www/html/paytabs_task/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/paytabs_task/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-05 22:07:43 --> syntax error, unexpected '<', expecting end of file
+#0 /var/www/html/paytabs_task/system/Common.php(1087): CodeIgniter\View\View->render('category', Array, true)
+#1 /var/www/html/paytabs_task/app/Controllers/Category.php(10): view('category', Array)
+#2 /var/www/html/paytabs_task/system/CodeIgniter.php(914): App\Controllers\Category->index()
+#3 /var/www/html/paytabs_task/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#4 /var/www/html/paytabs_task/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/paytabs_task/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-05 22:07:48 --> syntax error, unexpected '<', expecting end of file
+#0 /var/www/html/paytabs_task/system/Common.php(1087): CodeIgniter\View\View->render('category', Array, true)
+#1 /var/www/html/paytabs_task/app/Controllers/Category.php(10): view('category', Array)
+#2 /var/www/html/paytabs_task/system/CodeIgniter.php(914): App\Controllers\Category->index()
+#3 /var/www/html/paytabs_task/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#4 /var/www/html/paytabs_task/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/paytabs_task/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-05 22:07:59 --> syntax error, unexpected '<', expecting end of file
+#0 /var/www/html/paytabs_task/system/Common.php(1087): CodeIgniter\View\View->render('category', Array, true)
+#1 /var/www/html/paytabs_task/app/Controllers/Category.php(10): view('category', Array)
+#2 /var/www/html/paytabs_task/system/CodeIgniter.php(914): App\Controllers\Category->index()
+#3 /var/www/html/paytabs_task/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#4 /var/www/html/paytabs_task/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/paytabs_task/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-05 22:09:54 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /var/www/html/paytabs_task/system/Common.php(1087): CodeIgniter\View\View->render('category', Array, true)
+#1 /var/www/html/paytabs_task/app/Controllers/Category.php(10): view('category', Array)
+#2 /var/www/html/paytabs_task/system/CodeIgniter.php(914): App\Controllers\Category->index()
+#3 /var/www/html/paytabs_task/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#4 /var/www/html/paytabs_task/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/paytabs_task/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-05 22:09:55 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /var/www/html/paytabs_task/system/Common.php(1087): CodeIgniter\View\View->render('category', Array, true)
+#1 /var/www/html/paytabs_task/app/Controllers/Category.php(10): view('category', Array)
+#2 /var/www/html/paytabs_task/system/CodeIgniter.php(914): App\Controllers\Category->index()
+#3 /var/www/html/paytabs_task/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#4 /var/www/html/paytabs_task/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/paytabs_task/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-05 22:30:08 --> Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP)
+#0 /var/www/html/paytabs_task/app/Views/category.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/var/www/html/p...', 14, Array)
+#1 /var/www/html/paytabs_task/system/View/View.php(246): include('/var/www/html/p...')
+#2 /var/www/html/paytabs_task/system/Common.php(1087): CodeIgniter\View\View->render('category', Array, true)
+#3 /var/www/html/paytabs_task/app/Controllers/Category.php(10): view('category', Array)
+#4 /var/www/html/paytabs_task/system/CodeIgniter.php(914): App\Controllers\Category->index()
+#5 /var/www/html/paytabs_task/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#6 /var/www/html/paytabs_task/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/paytabs_task/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
